@@ -1,0 +1,33 @@
+{
+    "illustration-link": "https://via.placeholder.com/320x283",
+    "location": "The Oregon Coast",
+    "state": "OR",
+    "city": [
+      {
+        "name": "Cannon Beach",
+        "desc": "Cannon Beach is one of the scenic Northern Oregon Coast's most popular getaways, but still offers the charm and peacefulness of a beach resort community.",
+        "home-count": "370",
+        "img-link": "https://vacasa-units.imgix.net/1242477.jpg",
+        "link": "https://vacasa-units.imgix.net/1242478.jpg"
+      },
+      {
+        "name": "Oceanside",
+        "desc": "Just west of the charming town of Tillamook and its cheese factory sits charming Oceanside, a small village home to beach getaways, a beautiful sandy…",
+        "home-count": "120",
+        "img-link": "https://vacasa-units.imgix.net/868668.jpg",
+        "link": "https://vacasa-units.imgix.net/1242472.jpg"
+      },
+      {
+        "name": "Seaside",
+        "desc": "Seaside is the Northern Oregon Coast's most popular and family-centric destination, with its bustling beachside tourist district offering plenty…",
+        "home-count": "12",
+        "img-link": "https://vacasa-units.imgix.net/855791.jpg",
+        "link": "https://vacasa-units.imgix.net/1242477.jpg"
+      }
+    ],
+    "previous_reservation": {
+      "year": 2019,
+      "city": "Oceanside",
+      "state": "Oregon"
+    }
+  }

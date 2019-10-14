@@ -1,0 +1,47 @@
+.search {
+  max-width: 670px;
+  height: auto;;
+  background: rgb(0, 51, 73);
+  border-radius: 0px;
+  /* margin-top: 27px; */
+  padding: 32px 32px 24px 54px;
+}
+
+.search h3 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-family: "Wigrum",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.82px;
+  line-height: 32px;
+  margin: 0px 0px 8px 0px;
+  display: inline-block;
+}
+
+.search p {
+  max-width: 414px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin: 0px;
+  padding-top: 16px;
+}
+
+.search a {
+  width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+
+  .search.mobile-padding {
+      padding: 16px 24px !important;
+  }
+
+  /* row.no-mobile-padding {
+    padding: 0px 0px !important;
+  } */
+
+}

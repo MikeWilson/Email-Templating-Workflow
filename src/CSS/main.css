@@ -1,0 +1,47 @@
+.main.city{
+  padding: 0px 0px 16px 0px;
+  text-align: left;
+}
+
+.main h2 {
+    text-align: center;
+    color: rgb(44, 52, 57);
+    font-size: 38px;
+    font-family: "Wigrum",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    line-height: 40px;
+    height: auto;
+    margin: 32px 0px 24px 0px;
+  }
+
+.main h3.title {
+    color: rgb(44, 52, 57);
+    font-size: 28px;
+    font-family: "Wigrum",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 36px;
+    height: auto;
+    margin: 8px 0px 0px 0px;
+  }
+
+.main span.sub {
+    color: rgb(44, 52, 57);
+    font-size: 14px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin: 8px 0px 8px 0px;
+    max-width: 272px;
+  }
+
+  .main img  {
+    /* margin: 0px 0px 0px 56px; */
+    max-width: 288px;
+    max-height: 191px;
+    border-radius: 2px;
+  }
+
+  

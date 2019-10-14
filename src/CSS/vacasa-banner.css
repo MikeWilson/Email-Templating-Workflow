@@ -1,0 +1,42 @@
+.vacasa-banner {
+  padding: 32px 0px 0px 32px;
+}
+
+.vacasa-banner h3 {
+  max-width: 361px;
+  height: auto;
+  color: rgb(44, 52, 57);
+  font-size: 24px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.13px;
+  /* line-height: 40px; */
+  /* margin: 0px; */
+}
+
+.vacasa-banner span {
+  max-width: 430px;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  /* margin: 0px; */
+}
+
+.vacasa-banner img {
+  margin: 32px auto;
+}
+
+@media only screen and (max-width:600px) {
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  /* row.no-mobile-padding {
+    padding: 0px 0px !important;
+  } */
+
+}

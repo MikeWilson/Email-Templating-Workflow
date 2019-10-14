@@ -1,0 +1,141 @@
+<heml>
+
+  <head>
+    <subject>Email Subject</subject>
+    <preview>Please open my email!!</preview>
+
+    <!-- inject-style src="src/CSS/base.css" -->
+    <!-- inject-style src="src/CSS/header.css" -->
+    <!-- inject-style src="src/CSS/cta.css" -->
+    <!-- inject-style src="src/CSS/main.css" -->
+    <!-- inject-style src="src/CSS/search.css" -->
+    <!-- inject-style src="src/CSS/vacasa-banner.css" -->
+    <!-- inject-style src="src/CSS/footer.css" -->
+    <!-- inject-style src="src/CSS/buttons.css" -->
+
+    <style heml-ignore>
+      table.button {
+        margin: 0px auto 0px auto !important;
+      }
+
+      @media only screen and (max-width:600px) {
+
+        .mobile-column {
+          margin: 0px auto;
+          width: 268px;
+        }
+
+        .header .tagline {
+          display: none !important;
+        }
+
+        h1.header {
+          font-size: 56px !important;
+        }
+
+        .main img {
+          margin: 0px auto 0px auto !important;
+        }
+
+        .main h2.header {
+          font-size: 32px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <container>
+      <row class="header dark full-width no-mobile-padding" bgcolor="rgb(0, 51, 73)">
+        <column>
+          <a
+            href="https://vacasa.com?&utm_campaign=weekend_deal&utm_campaignid=1&utm_uuid=02597588-9a85-11e9-88e1-88e9fe5c0ce7&utm_source=sendgrid_peat&utm_medium=email&utm_content=header_logo">
+            <img class="logo" src="https://static-assets.boise.vacasa.com/peat/Logos_Lockup_Horizontal_Color.png"
+              alt="Vacasa">
+          </a>
+        </column>
+        <column>
+          <p class="tagline">
+            Your vacation is our full-time job
+            </span>
+        </column>
+      </row>
+
+      <row class="mobile-padding">
+        <column class="cta">
+          <h1>Seize the Weekend.</h1>
+          <span>Grab your moment, \\location}} is calling.</span>
+          <img width="320" height="283" src=\\illustration-link}}></img>
+          <button class="primary">Find Your Vacation Rental</button>
+        </column>
+      </row>
+
+      <row class="main">
+        <h2>\\location}}, \\state}}</h2>
+      </row>
+
+      \\#if city}}
+      \\#each city}}
+      <a href="\\link}}">
+        <row class="main city mobile-padding">
+          <column small="12" large="6" class="image-container align-center">
+            <img width="286" height="191" src="\\img-link}}"></img>
+          </column>
+
+          <column small="12" large="6">
+            <div class="mobile-column">
+              <h3 class="title">\\name}}</h3>
+              <span class="sub">\\desc}}</span>
+              <button class="ghost">Search \\home-count}} homes</button>
+            </div>
+          </column>
+        </row>
+      </a>
+      \\/each}}
+      \\/if}}
+
+      <row class="search mobile-padding">
+        <h3>Find a vacation rental</h3>
+        <a href="https://vacasa.com?&utm_campaign=weekend_deal&utm_campaignid=1&utm_uuid=02597588-9a85-11e9-88e1-88e9fe5c0ce7&utm_source=sendgrid_peat&utm_medium=email&utm_content=footer_search"
+          target="_blank">
+          <img width="561" height="40" src="https://static-assets.boise.vacasa.com/peat/search-bar.png"
+            alt="Search for a vacation rental" />
+        </a>
+        <p>You’ve received this email because you stayed with us in \\previous_reservation.city}},
+          \\previous_reservation.state}} in \\previous_reservation.year}}.</p>
+      </row>
+
+      <row class="vacasa-banner mobile-hidden">
+        <column large="3" small="4">
+          <img height="64" width="89" src="https://static-assets.boise.vacasa.com/logo/vacasa-logo-vertical-light.png"
+            width="89px" height="64px" alt="Vacasa">
+        </column>
+        <column large="9" small="8">
+          <h3>For the love of vacation homes.</h3>
+          <span>It’s why we’re here. We bring families and friends together in thousands of vacation homes around the
+            world.
+          </span>
+        </column>
+      </row>
+
+      <row class="footer mobile-padding">
+        <span class="legal">The discount is based on the highest price of the offer under the same conditions from the
+          same
+          dates for the upcoming year. Vacasa offers property management and other real estate services directly through
+          Vacasa LLC and through Vacasa LLC's licensed subsidiaries.
+          <a
+            href="https://www.vacasa.com/real-estate/real-estate-entities?&utm_campaign=weekend_deal&utm_campaignid=1&utm_uuid=02597588-9a85-11e9-88e1-88e9fe5c0ce7&utm_source=sendgrid_peat&utm_medium=email&utm_content=footer-legal">Click
+            here for more information about Vacasa's licensed real estate brokerage/property manager in your state.</a>
+        </span>
+        <span class="address">&copy; 2019 Vacasa, LLC | 850 NW 13th Ave. Portland, OR 97209</span>
+        <span class="links">
+          <a href="<%asm_group_unsubscribe_raw_url%>">Unsubscribe</a>
+          <span class="separator">|</span>
+          <a
+            href="https://www.vacasa.com/terms-of-service?&utm_campaign=weekend_deal&utm_campaignid=1&utm_uuid=02597588-9a85-11e9-88e1-88e9fe5c0ce7&utm_source=sendgrid_peat&utm_medium=email&utm_content=footer-privacy">Privacy
+            &amp; Terms</a>
+        </span>
+      </row> 
+    </container>
+  </body>
+</heml>

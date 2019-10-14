@@ -1,0 +1,33 @@
+.cta {
+    text-align: center !important;
+  }
+
+  .cta h1 {
+    max-width: 568px;
+    height: auto;
+    color: rgb(44, 52, 57);
+    font-size: 67px;
+    font-family: "Wigrum",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1.5px;
+    line-height: 72px;
+    margin: 16px auto 0px auto;
+  }
+
+  .cta span {
+    max-width: 519px;
+    height: auto;
+    color: rgb(44, 52, 57);
+    font-size: 21px;
+    font-family: "Wigrum",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+    margin: 16px auto 0px auto;
+  }
+
+  .cta img {
+      margin: 32px auto;
+  }
